@@ -23,9 +23,8 @@
 	        </list>
 	    </property>
 	</bean>
-	<bean id="viewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
-        <property name="viewClass" value="org.springframework.web.servlet.view.tiles2.TilesView"/>
-	</bean>
+	
+	<bean id="viewResolver" class="org.springframework.web.servlet.view.tiles2.TilesViewResolver"/>
 	
 	<!-- Scans within the base package of the application for @Components to configure as beans -->
 	<context:component-scan base-package="com.sample.*" />
