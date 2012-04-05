@@ -16,7 +16,7 @@
 		<tiles.version>2.2.2</tiles.version>
 	</properties>
 	<dependencies>
-		<!-- Commons logging -->
+		<!-- Commons logging aha!-->
 		<dependency>
 		    <groupId>commons-logging</groupId>
 		    <artifactId>commons-logging</artifactId>
